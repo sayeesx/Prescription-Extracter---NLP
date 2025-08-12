@@ -1,5 +1,5 @@
 import os
-from transformers import VisionEncoderDecoderModel, TrOCRProcessor
+from transformers import VisionEncoderDecoderModel
 
 def load_trocr_model():
     local_model_path = "./models/trocr"
